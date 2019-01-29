@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.437 sec <<< FAILURE! - in TestSuite
+NewsLetterWrongdata(test.selenium.demo.test.selenium.demo.TestSeleniumCase1)  Time elapsed: 29.157 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'memail' is required by @Test on method NewsLetterWrongdata but has not been marked @Optional or defined
+
+
+NewsLetterCorrectData(test.selenium.demo.test.selenium.demo.TestSeleniumCase2)  Time elapsed: 29.16 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'memail' is required by @Test on method NewsLetterCorrectData but has not been marked @Optional or defined
+
+
